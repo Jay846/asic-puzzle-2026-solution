@@ -1,0 +1,875 @@
+{
+  "mode": "named",
+  "top_cell": "adder_demo",
+  "instances": [
+    {
+      "id": "u5",
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "type": "BUF",
+      "origin": [
+        31.740000000000002,
+        48.96
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u6",
+      "master": "sky130_fd_sc_hd__and4bb_2",
+      "type": "AND",
+      "origin": [
+        69.92,
+        48.96
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u108",
+      "master": "sky130_fd_sc_hd__and3_2",
+      "type": "AND",
+      "origin": [
+        69.92,
+        54.4
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u136",
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "type": "BUF",
+      "origin": [
+        35.88,
+        65.28
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u137",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        25.76,
+        65.28
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u138",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        25.76,
+        76.16
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u139",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        26.22,
+        70.72
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u140",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        70.72
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u141",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        36.34,
+        70.72
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u142",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        26.22,
+        76.16
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u146",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        26.22,
+        70.72
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u180",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        76.16
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u181",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        70.72
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u182",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        36.34,
+        76.16
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u210",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        39.56,
+        70.72
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u234",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        81.60000000000001
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u274",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        26.22,
+        76.16
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u339",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        59.84
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u348",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        59.84
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u368",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        65.28
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u369",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        26.22,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u378",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u379",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        27.2
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u385",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        35.88,
+        27.2
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u386",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        36.34,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u387",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        26.22,
+        38.08
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u388",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        26.22,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u404",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        22.080000000000002,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u418",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        29.900000000000002,
+        43.52
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u426",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        36.34,
+        38.08
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u433",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u443",
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "type": "BUF",
+      "origin": [
+        30.82,
+        43.52
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u453",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        38.08
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u541",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u554",
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "origin": [
+        29.900000000000002,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u596",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        36.34,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u603",
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "origin": [
+        34.04,
+        21.76
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u613",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "origin": [
+        75.9,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u616",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        59.34,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u617",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        79.12,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u618",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        69.92,
+        38.08
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u619",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        69.92,
+        16.32
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u622",
+      "master": "sky130_fd_sc_hd__a21boi_2",
+      "type": "UNKNOWN",
+      "origin": [
+        69.92,
+        27.2
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u623",
+      "master": "sky130_fd_sc_hd__o21bai_2",
+      "type": "UNKNOWN",
+      "origin": [
+        69.92,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u629",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        69.92,
+        38.08
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u630",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        67.16,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u631",
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "origin": [
+        68.54,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u632",
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "origin": [
+        68.54,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u633",
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "origin": [
+        68.54,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u634",
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "origin": [
+        69.92,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u635",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "origin": [
+        65.78,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u636",
+      "master": "sky130_fd_sc_hd__or2_2",
+      "type": "OR",
+      "origin": [
+        77.74,
+        32.64
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u639",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        69.92,
+        38.08
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u659",
+      "master": "sky130_fd_sc_hd__and4bb_2",
+      "type": "AND",
+      "origin": [
+        74.52,
+        48.96
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u685",
+      "master": "sky130_fd_sc_hd__or2_2",
+      "type": "OR",
+      "origin": [
+        73.60000000000001,
+        38.08
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u707",
+      "master": "sky130_fd_sc_hd__a21bo_2",
+      "type": "UNKNOWN",
+      "origin": [
+        73.60000000000001,
+        38.08
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u711",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        77.74,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u761",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        67.16,
+        38.08
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u765",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        65.32000000000001,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u781",
+      "master": "sky130_fd_sc_hd__a21o_2",
+      "type": "AOI/OA",
+      "origin": [
+        68.54,
+        32.64
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": true
+    },
+    {
+      "id": "u841",
+      "master": "sky130_fd_sc_hd__or2_2",
+      "type": "OR",
+      "origin": [
+        67.16,
+        21.76
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u844",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        57.5,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u852",
+      "master": "sky130_fd_sc_hd__nand2_2",
+      "type": "NAND",
+      "origin": [
+        61.64,
+        27.2
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u864",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        59.800000000000004,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u866",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "origin": [
+        62.56,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u895",
+      "master": "sky130_fd_sc_hd__or2_2",
+      "type": "OR",
+      "origin": [
+        63.02,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u900",
+      "master": "sky130_fd_sc_hd__xnor2_2",
+      "type": "NOR",
+      "origin": [
+        62.56,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u917",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "origin": [
+        65.32000000000001,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u972",
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "origin": [
+        74.98,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u975",
+      "master": "sky130_fd_sc_hd__xnor2_2",
+      "type": "NOR",
+      "origin": [
+        75.9,
+        21.76
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u976",
+      "master": "sky130_fd_sc_hd__nand2_2",
+      "type": "NAND",
+      "origin": [
+        77.74,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u978",
+      "master": "sky130_fd_sc_hd__nand2_2",
+      "type": "NAND",
+      "origin": [
+        79.12,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u989",
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "origin": [
+        83.26,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u1002",
+      "master": "sky130_fd_sc_hd__nand2_2",
+      "type": "NAND",
+      "origin": [
+        80.96000000000001,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u1011",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        74.98,
+        21.76
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    },
+    {
+      "id": "u1048",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "origin": [
+        75.9,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u1052",
+      "master": "sky130_fd_sc_hd__xnor2_2",
+      "type": "NOR",
+      "origin": [
+        69.92,
+        27.2
+      ],
+      "rotation": 0.0,
+      "x_reflection": true
+    },
+    {
+      "id": "u1069",
+      "master": "sky130_fd_sc_hd__or2_2",
+      "type": "OR",
+      "origin": [
+        72.22,
+        16.32
+      ],
+      "rotation": 3.141592653589793,
+      "x_reflection": false
+    },
+    {
+      "id": "u1070",
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "origin": [
+        69.92,
+        16.32
+      ],
+      "rotation": 0.0,
+      "x_reflection": false
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "source_gds": "/Users/jaysalvi11/asic-puzzle-2026/warmup/04_final.gds",
+  "top_cell": "adder_demo",
+  "cell_count": 16,
+  "cells": {
+    "sky130_fd_sc_hd__clkbuf_16": {
+      "type": "BUF",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 9.39,
+        "ymax": 2.96,
+        "width": 9.58,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 0.23,
+          "y": 1.02,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 2
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 2
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 8.28,
+          "y": 1.19,
+          "dir": "output",
+          "label_count": 6
+        }
+      ],
+      "pin_count": 6,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__and4bb_2": {
+      "type": "AND",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 4.79,
+        "ymax": 2.96,
+        "width": 4.98,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A_N",
+          "x": 0.235,
+          "y": 1.36,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "B_N",
+          "x": 3.905,
+          "y": 0.85,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "C",
+          "x": 2.995,
+          "y": 0.85,
+          "dir": "input",
+          "label_count": 3
+        },
+        {
+          "name": "D",
+          "x": 3.455,
+          "y": 0.51,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 1.155,
+          "y": 1.19,
+          "dir": "output",
+          "label_count": 3
+        }
+      ],
+      "pin_count": 9,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__and3_2": {
+      "type": "AND",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 2.95,
+        "ymax": 2.96,
+        "width": 3.14,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 0.23,
+          "y": 0.85,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 1.15,
+          "y": 2.21,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "C",
+          "x": 1.15,
+          "y": 0.85,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 2
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 2
+        },
+        {
+          "name": "X",
+          "x": 2.223,
+          "y": 1.303,
+          "dir": "output",
+          "label_count": 3
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__mux2_1": {
+      "type": "MUX",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 4.33,
+        "ymax": 2.96,
+        "width": 4.52,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A0",
+          "x": 2.075,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A1",
+          "x": 2.535,
+          "y": 1.02,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "S",
+          "x": 3.225,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "VGND",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.505,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.455,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 0.235,
+          "y": 1.53,
+          "dir": "output",
+          "label_count": 3
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__dfrtp_2": {
+      "type": "DFF",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 9.85,
+        "ymax": 2.96,
+        "width": 10.04,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "CLK",
+          "x": 0.235,
+          "y": 1.36,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "D",
+          "x": 1.61,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "Q",
+          "x": 8.965,
+          "y": 1.53,
+          "dir": "output",
+          "label_count": 4
+        },
+        {
+          "name": "RESET_B",
+          "x": 7.49,
+          "y": 1.02,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__a31o_2": {
+      "type": "AOI/OA",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 3.41,
+        "ymax": 2.96,
+        "width": 3.6,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A1",
+          "x": 2.075,
+          "y": 0.51,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A2",
+          "x": 1.615,
+          "y": 0.51,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A3",
+          "x": 1.155,
+          "y": 1.02,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "B1",
+          "x": 2.993,
+          "y": 1.02,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 0.235,
+          "y": 1.36,
+          "dir": "output",
+          "label_count": 4
+        }
+      ],
+      "pin_count": 9,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__nor2_2": {
+      "type": "NOR",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 2.49,
+        "ymax": 2.96,
+        "width": 2.68,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 0.235,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 1.155,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "Y",
+          "x": 1.615,
+          "y": 1.87,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__a21boi_2": {
+      "type": "AOI/OA",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 4.33,
+        "ymax": 2.96,
+        "width": 4.52,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A1",
+          "x": 3.015,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A2",
+          "x": 3.475,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B1_N",
+          "x": 0.23,
+          "y": 0.85,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "Y",
+          "x": 1.635,
+          "y": 0.51,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__o21bai_2": {
+      "type": "AOI/OA",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 4.33,
+        "ymax": 2.96,
+        "width": 4.52,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A1",
+          "x": 3.45,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A2",
+          "x": 2.53,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B1_N",
+          "x": 0.23,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "Y",
+          "x": 1.61,
+          "y": 1.53,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__and2_2": {
+      "type": "AND",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 2.95,
+        "ymax": 2.96,
+        "width": 3.14,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 0.46,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "B",
+          "x": 1.15,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 2.07,
+          "y": 1.36,
+          "dir": "output",
+          "label_count": 6
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__xor2_2": {
+      "type": "XOR",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 6.17,
+        "ymax": 2.96,
+        "width": 6.36,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 1.15,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 3.91,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 5.75,
+          "y": 1.53,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__or2_2": {
+      "type": "OR",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 2.49,
+        "ymax": 2.96,
+        "width": 2.68,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 1.155,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 0.235,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 2.075,
+          "y": 1.87,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__a21bo_2": {
+      "type": "AOI/OA",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 3.87,
+        "ymax": 2.96,
+        "width": 4.06,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A1",
+          "x": 3.015,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "A2",
+          "x": 3.47,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B1_N",
+          "x": 1.155,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 0.235,
+          "y": 1.87,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__a21o_2": {
+      "type": "AOI/OA",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 3.41,
+        "ymax": 2.96,
+        "width": 3.6,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A1",
+          "x": 2.535,
+          "y": 0.68,
+          "dir": "input",
+          "label_count": 2
+        },
+        {
+          "name": "A2",
+          "x": 2.99,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B1",
+          "x": 1.615,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.235,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.235,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "X",
+          "x": 0.695,
+          "y": 2.21,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 8,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__nand2_2": {
+      "type": "NAND",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 2.49,
+        "ymax": 2.96,
+        "width": 2.68,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 1.615,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 0.695,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "Y",
+          "x": 2.075,
+          "y": 1.19,
+          "dir": "output",
+          "label_count": 3
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    },
+    "sky130_fd_sc_hd__xnor2_2": {
+      "type": "XOR",
+      "bbox": {
+        "xmin": -0.19,
+        "ymin": -0.24,
+        "xmax": 6.17,
+        "ymax": 2.96,
+        "width": 6.36,
+        "height": 3.2
+      },
+      "pins": [
+        {
+          "name": "A",
+          "x": 2.07,
+          "y": 1.19,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "B",
+          "x": 1.15,
+          "y": 1.53,
+          "dir": "input",
+          "label_count": 1
+        },
+        {
+          "name": "VGND",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VNB",
+          "x": 0.23,
+          "y": 0.0,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPB",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "VPWR",
+          "x": 0.23,
+          "y": 2.72,
+          "dir": "power",
+          "label_count": 1
+        },
+        {
+          "name": "Y",
+          "x": 5.79,
+          "y": 1.53,
+          "dir": "output",
+          "label_count": 1
+        }
+      ],
+      "pin_count": 7,
+      "note": "Pin coordinates extracted exactly from GDS labels"
+    }
+  }
+}

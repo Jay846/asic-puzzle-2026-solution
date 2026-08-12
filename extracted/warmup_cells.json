@@ -1,0 +1,241 @@
+{
+  "top_cell": "adder_demo",
+  "total_instances": 1099,
+  "unique_fingerprints": 26,
+  "type_distribution": {
+    "VIA": 869,
+    "FILL/DECAP": 151,
+    "MUX": 16,
+    "DFF": 16,
+    "NOR": 11,
+    "AND": 10,
+    "AOI/OA": 6,
+    "XOR": 5,
+    "OR": 5,
+    "NAND": 4,
+    "BUF": 3,
+    "UNKNOWN": 3
+  },
+  "logic_only": {
+    "MUX": 16,
+    "DFF": 16,
+    "NOR": 11,
+    "AND": 10,
+    "AOI/OA": 6,
+    "XOR": 5,
+    "OR": 5,
+    "NAND": 4,
+    "BUF": 3,
+    "UNKNOWN": 3
+  },
+  "master_usage": {
+    "VIA_M1M2_PR": 313,
+    "VIA_L1M1_PR_MR": 268,
+    "sky130_fd_sc_hd__tapvpwrvgnd_1": 93,
+    "VIA_via4_5_2000_480_1_5_400_400": 75,
+    "VIA_via3_4_2000_480_1_5_400_400": 75,
+    "VIA_via2_3_2000_480_1_6_320_320": 75,
+    "sky130_fd_sc_hd__decap_3": 58,
+    "VIA_M2M3_PR": 45,
+    "sky130_fd_sc_hd__mux2_1": 16,
+    "sky130_fd_sc_hd__dfrtp_2": 16,
+    "VIA_via5_6_2000_2000_1_1_1600_1600": 13,
+    "sky130_fd_sc_hd__nor2_2": 8,
+    "sky130_fd_sc_hd__and2_2": 7,
+    "sky130_fd_sc_hd__a31o_2": 5,
+    "sky130_fd_sc_hd__xor2_2": 5,
+    "sky130_fd_sc_hd__or2_2": 5,
+    "VIA_M3M4_PR": 5,
+    "sky130_fd_sc_hd__nand2_2": 4,
+    "sky130_fd_sc_hd__clkbuf_16": 3,
+    "sky130_fd_sc_hd__xnor2_2": 3,
+    "sky130_fd_sc_hd__and4bb_2": 2,
+    "sky130_fd_sc_hd__and3_2": 1,
+    "sky130_fd_sc_hd__a21boi_2": 1,
+    "sky130_fd_sc_hd__o21bai_2": 1,
+    "sky130_fd_sc_hd__a21bo_2": 1,
+    "sky130_fd_sc_hd__a21o_2": 1
+  },
+  "fingerprints_sample": {
+    "e7012d037bd23714": {
+      "master": "sky130_fd_sc_hd__decap_3",
+      "type": "FILL/DECAP",
+      "count": 58,
+      "example_origin": [
+        10.120000000000001,
+        48.96
+      ]
+    },
+    "4f59a27a33560b17": {
+      "master": "sky130_fd_sc_hd__tapvpwrvgnd_1",
+      "type": "FILL/DECAP",
+      "count": 93,
+      "example_origin": [
+        23.0,
+        48.96
+      ]
+    },
+    "aaf4fa6aae0410d9": {
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "type": "BUF",
+      "count": 3,
+      "example_origin": [
+        31.740000000000002,
+        48.96
+      ]
+    },
+    "e378f41d2a57a63c": {
+      "master": "sky130_fd_sc_hd__and4bb_2",
+      "type": "AND",
+      "count": 2,
+      "example_origin": [
+        69.92,
+        48.96
+      ]
+    },
+    "55691a7b58a78730": {
+      "master": "VIA_M1M2_PR",
+      "type": "VIA",
+      "count": 313,
+      "example_origin": [
+        48.07,
+        70.21000000000001
+      ]
+    },
+    "cfa9b633cd1a6a84": {
+      "master": "VIA_via5_6_2000_2000_1_1_1600_1600",
+      "type": "VIA",
+      "count": 13,
+      "example_origin": [
+        86.44,
+        87.53
+      ]
+    },
+    "5feaf58d463f00d3": {
+      "master": "VIA_via4_5_2000_480_1_5_400_400",
+      "type": "VIA",
+      "count": 75,
+      "example_origin": [
+        86.44,
+        73.44
+      ]
+    },
+    "ff6536a457b0a8fb": {
+      "master": "VIA_via3_4_2000_480_1_5_400_400",
+      "type": "VIA",
+      "count": 75,
+      "example_origin": [
+        86.44,
+        73.44
+      ]
+    },
+    "f3b592fbf54237be": {
+      "master": "VIA_via2_3_2000_480_1_6_320_320",
+      "type": "VIA",
+      "count": 75,
+      "example_origin": [
+        86.44,
+        78.88
+      ]
+    },
+    "d76e58dbb0031ab0": {
+      "master": "sky130_fd_sc_hd__and3_2",
+      "type": "AND",
+      "count": 1,
+      "example_origin": [
+        69.92,
+        54.4
+      ]
+    },
+    "4b3f9458b7d59aef": {
+      "master": "VIA_L1M1_PR_MR",
+      "type": "VIA",
+      "count": 268,
+      "example_origin": [
+        71.99,
+        52.19
+      ]
+    },
+    "f6845da4058ee4e1": {
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "type": "MUX",
+      "count": 16,
+      "example_origin": [
+        25.76,
+        65.28
+      ]
+    },
+    "91fb9c34a75fab7f": {
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "type": "DFF",
+      "count": 16,
+      "example_origin": [
+        36.34,
+        70.72
+      ]
+    },
+    "448c5b5fafcaf404": {
+      "master": "VIA_M2M3_PR",
+      "type": "VIA",
+      "count": 45,
+      "example_origin": [
+        45.31,
+        74.46000000000001
+      ]
+    },
+    "79648d0738ea2721": {
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "type": "AOI/OA",
+      "count": 5,
+      "example_origin": [
+        75.9,
+        32.64
+      ]
+    },
+    "085605f760b1fd17": {
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "type": "NOR",
+      "count": 8,
+      "example_origin": [
+        59.34,
+        32.64
+      ]
+    },
+    "3b7003508f428709": {
+      "master": "sky130_fd_sc_hd__a21boi_2",
+      "type": "UNKNOWN",
+      "count": 1,
+      "example_origin": [
+        69.92,
+        27.2
+      ]
+    },
+    "f33c0cadaae0f7f3": {
+      "master": "sky130_fd_sc_hd__o21bai_2",
+      "type": "UNKNOWN",
+      "count": 1,
+      "example_origin": [
+        69.92,
+        32.64
+      ]
+    },
+    "35f7352e67826edd": {
+      "master": "sky130_fd_sc_hd__and2_2",
+      "type": "AND",
+      "count": 7,
+      "example_origin": [
+        69.92,
+        38.08
+      ]
+    },
+    "c17a6f295f5e5dbb": {
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "type": "XOR",
+      "count": 5,
+      "example_origin": [
+        68.54,
+        27.2
+      ]
+    }
+  }
+}

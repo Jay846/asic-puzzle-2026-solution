@@ -1,0 +1,23 @@
+{
+  "mode": "geometric_skeleton",
+  "top_cell": "adder_demo",
+  "fingerprints": {
+    "aaf4fa6aae0410d9": 3,
+    "e378f41d2a57a63c": 2,
+    "d76e58dbb0031ab0": 1,
+    "f6845da4058ee4e1": 16,
+    "91fb9c34a75fab7f": 16,
+    "79648d0738ea2721": 5,
+    "085605f760b1fd17": 8,
+    "3b7003508f428709": 1,
+    "f33c0cadaae0f7f3": 1,
+    "35f7352e67826edd": 7,
+    "c17a6f295f5e5dbb": 5,
+    "c403d9e0f2d6ce5d": 5,
+    "ce76749f7f9d4c94": 1,
+    "af29a8230633abf6": 1,
+    "948508c03bc22757": 4,
+    "3d694cb0ed3aff4e": 3
+  },
+  "note": "Connectivity tracing still TODO \u2013 this is only the skeleton"
+}

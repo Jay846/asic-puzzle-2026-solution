@@ -1,0 +1,207 @@
+{
+  "original_sample_size": 40,
+  "self_loops_removed": 0,
+  "clean_connections": [
+    {
+      "from": "u5.X",
+      "to": "u136.A",
+      "net": "n1"
+    },
+    {
+      "from": "u5.X",
+      "to": "u443.A",
+      "net": "n1"
+    },
+    {
+      "from": "u972.X",
+      "to": "u6.A_N",
+      "net": "n2"
+    },
+    {
+      "from": "u634.X",
+      "to": "u6.B_N",
+      "net": "n3"
+    },
+    {
+      "from": "u633.X",
+      "to": "u6.C",
+      "net": "n4"
+    },
+    {
+      "from": "u632.X",
+      "to": "u6.D",
+      "net": "n5"
+    },
+    {
+      "from": "u6.X",
+      "to": "u659.D",
+      "net": "n6"
+    },
+    {
+      "from": "u900.Y",
+      "to": "u108.A",
+      "net": "n7"
+    },
+    {
+      "from": "u975.Y",
+      "to": "u108.B",
+      "net": "n8"
+    },
+    {
+      "from": "u623.Y",
+      "to": "u108.C",
+      "net": "n9"
+    },
+    {
+      "from": "u108.X",
+      "to": "u659.C",
+      "net": "n10"
+    },
+    {
+      "from": "u136.X",
+      "to": "u141.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u142.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u146.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u180.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u181.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u182.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u348.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u136.X",
+      "to": "u368.CLK",
+      "net": "n11"
+    },
+    {
+      "from": "u146.Q",
+      "to": "u137.A0",
+      "net": "n12"
+    },
+    {
+      "from": "u146.Q",
+      "to": "u617.B",
+      "net": "n12"
+    },
+    {
+      "from": "u146.Q",
+      "to": "u138.A1",
+      "net": "n12"
+    },
+    {
+      "from": "u146.Q",
+      "to": "u711.B",
+      "net": "n12"
+    },
+    {
+      "from": "u146.Q",
+      "to": "u895.B",
+      "net": "n12"
+    },
+    {
+      "from": "u180.Q",
+      "to": "u137.A1",
+      "net": "n13"
+    },
+    {
+      "from": "u180.Q",
+      "to": "u613.A2",
+      "net": "n13"
+    },
+    {
+      "from": "u180.Q",
+      "to": "u685.B",
+      "net": "n13"
+    },
+    {
+      "from": "u180.Q",
+      "to": "u978.B",
+      "net": "n13"
+    },
+    {
+      "from": "u180.Q",
+      "to": "u234.A0",
+      "net": "n13"
+    },
+    {
+      "from": "u137.X",
+      "to": "u146.D",
+      "net": "n15"
+    },
+    {
+      "from": "u142.Q",
+      "to": "u138.A0",
+      "net": "n16"
+    },
+    {
+      "from": "u142.Q",
+      "to": "u844.B",
+      "net": "n16"
+    },
+    {
+      "from": "u142.Q",
+      "to": "u866.A2",
+      "net": "n16"
+    },
+    {
+      "from": "u142.Q",
+      "to": "u1070.B",
+      "net": "n16"
+    },
+    {
+      "from": "u142.Q",
+      "to": "u210.A1",
+      "net": "n16"
+    },
+    {
+      "from": "u138.X",
+      "to": "u142.D",
+      "net": "n17"
+    },
+    {
+      "from": "u182.Q",
+      "to": "u636.B",
+      "net": "n18"
+    },
+    {
+      "from": "u182.Q",
+      "to": "u139.A0",
+      "net": "n18"
+    },
+    {
+      "from": "u182.Q",
+      "to": "u976.B",
+      "net": "n18"
+    },
+    {
+      "from": "u182.Q",
+      "to": "u274.A1",
+      "net": "n18"
+    }
+  ],
+  "clean_count": 40
+}

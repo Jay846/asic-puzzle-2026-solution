@@ -1,0 +1,42 @@
+{
+  "source_gds": "/Users/jaysalvi11/asic-puzzle-2026/warmup/04_final.gds",
+  "top_cell": "adder_demo",
+  "total_polygons": 3651,
+  "routing_layer_counts": {
+    "met2": 1600,
+    "licon": 498,
+    "met1": 457,
+    "mcon": 331,
+    "li1": 266,
+    "met3": 135,
+    "met4": 21,
+    "via_or_label": 19,
+    "met5": 16,
+    "via1": 7,
+    "via3": 6,
+    "via2": 6,
+    "via4": 1
+  },
+  "other_layer_counts": {
+    "label": 111,
+    "poly": 84,
+    "diff": 55,
+    "pwell": 36,
+    "tap": 2
+  },
+  "routing_layers_present": [
+    "li1",
+    "licon",
+    "mcon",
+    "met1",
+    "met2",
+    "met3",
+    "met4",
+    "met5",
+    "via1",
+    "via2",
+    "via3",
+    "via4",
+    "via_or_label"
+  ]
+}
