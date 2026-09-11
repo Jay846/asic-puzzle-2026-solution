@@ -50,7 +50,6 @@ graph TD
 
 *   `extracted/geometric_puzzle.v` - Reconstructed gate-level Verilog netlist.
 *   `solve_puzzle.py` - The symbolic Z3 SMT solver that compiles gate logic and extracts the key.
-*   `asci_stage.py` - The LangGraph orchestration script mapping out the 8-stage verification pipeline.
 *   `re/` - Core extraction and layout geometry analysis engines.
 *   `tools/` - Library footprint hashers, via-contact intersection finders, and simulator code.
 *   `LICENSE` - MIT License.
